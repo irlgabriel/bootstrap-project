@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav {
+  height: 120px;
+  width: 100%;
+  background-color: red;
+  border: 3px dashed blue;
+  z-index: 5;
+}
+
+.container-fluid {
+  background-color: coral;
+  height: 130vh;
+  
+}
+
+#main {
+  background-color: lightgreen;
+  position: relative;
+}
+
+#main div {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+#featured-story {
+  height: 200vh
+}
+
+#main-story {
+  height: 300vh;
+}
+
+#debate {
+  height: 150vh;
+}
+
+
+#magazines article {
+  margin: 5px;
+  width: 23%;
+}
+
+#magazines img {
+  height: 240px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.magazine-title {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.red-wrap {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.business {
+  padding-left: 15px;
+}
+
+.editor-title {
+  font-size: 22px;
+}
+
+.story-div-header {
+  color: rgb(163, 163, 163);
+  font-weight: bold;
+  line-height: 2;
+}
