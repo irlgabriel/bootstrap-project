@@ -8,8 +8,7 @@
 nav {
   height: 120px;
   width: 100%;
-  background-color: rgb(248, 120, 120);
-  border: 3px dashed blue;
+  background-color: rgb(245, 58, 58);
   z-index: 5;
 }
 
@@ -20,15 +19,19 @@ nav {
 }
 
 #main {
-
   position: relative;
 }
 
-
+nav h1{
+  text-align: center;
+  font-size: 92px;
+  font-weight: bold;
+  color: white;
+}
 
 #featured-story {
   min-height: 200vh;
-  max-height: 250vh;
+
 }
 
 #main-story {
@@ -37,7 +40,7 @@ nav {
 
 #debate {
   min-height: 150vh;
-  max-height: 200vh;
+
 }
 
 
