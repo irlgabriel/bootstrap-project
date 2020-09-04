@@ -18,7 +18,7 @@ nav {
 
 .container-fluid {
   height: 130vh;
-  margin-top: 76px;
+  margin-top: 96px;
 }
 
 #main {
@@ -87,7 +87,10 @@ img {
 
 .editor-title {
   font-size: 22px;
+}
 
+.editor-desc {
+  font-size: 15px;
 }
 
 .story-div-header {
