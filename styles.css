@@ -172,6 +172,11 @@ img {
   height: 70px;
 }
 
+.more-news-right {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 768px) {
 
   #main-story {
