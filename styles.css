@@ -51,8 +51,16 @@ nav {
 }
 
 img {
-  width: 100%;
   object-fit: cover;
+}
+
+#featured-story img, #main-story img, #magazines img, #editors-picks img {
+  width: 100%;
+}
+
+#more-stories img {
+  width: 100px;
+  height: 100px;
 }
 
 .magazine-title {
@@ -92,9 +100,6 @@ img {
   height: 100px;
 }
 
-.img-wrapper {
-  overflow: auto;
-}
 
 .article-desc {
   font-size: 15px;
@@ -111,6 +116,36 @@ img {
   font-size: 16px;
 }
 
+.hr {
+  height: 4px;
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+}
+
+.debate-speech {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.striped-hr {
+  height: 3px;
+  border-top: 1px solid rgb(196, 196, 196);
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+#debate strong {
+  font-size: 14px;
+}
+
+.opinion-author {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.opinion {
+  padding: 10px 0px;
+}
 
 @media only screen and (max-width: 768px) {
 
