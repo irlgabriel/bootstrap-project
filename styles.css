@@ -5,17 +5,20 @@
  
 }
 
+
 nav {
-  height: 120px;
+  height: 70px;
   width: 100%;
   background-color: rgb(245, 58, 58);
   z-index: 5;
+  position: fixed;
+  top:0px;
 }
 
-.container-fluid {
 
+.container-fluid {
   height: 130vh;
-  
+  margin-top: 76px;
 }
 
 #main {
@@ -24,7 +27,7 @@ nav {
 
 nav h1{
   text-align: center;
-  font-size: 92px;
+  font-size: 64px;
   font-weight: bold;
   color: white;
 }
