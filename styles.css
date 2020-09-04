@@ -8,37 +8,36 @@
 nav {
   height: 120px;
   width: 100%;
-  background-color: red;
+  background-color: rgb(248, 120, 120);
   border: 3px dashed blue;
   z-index: 5;
 }
 
 .container-fluid {
-  background-color: coral;
+
   height: 130vh;
   
 }
 
 #main {
-  background-color: lightgreen;
+
   position: relative;
 }
 
-#main div {
-  background-color: yellow;
-  border: 2px solid red;
-}
+
 
 #featured-story {
-  height: 200vh
+  min-height: 200vh;
+  max-height: 250vh;
 }
 
 #main-story {
-  height: 300vh;
+  min-height: 300vh;
 }
 
 #debate {
-  height: 150vh;
+  min-height: 150vh;
+  max-height: 200vh;
 }
 
 
@@ -74,10 +73,57 @@ img {
 
 .editor-title {
   font-size: 22px;
+
 }
 
 .story-div-header {
   color: rgb(163, 163, 163);
   font-weight: bold;
   line-height: 2;
+  font-size: 16px;
+}
+
+.featured-article {
+  margin: 10px 0px;
+}
+
+.small-image-article {
+  width: 100px;
+  height: 100px;
+}
+
+.img-wrapper {
+  overflow: auto;
+}
+
+.article-desc {
+  font-size: 15px;
+}
+
+.article-title {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.gray-title {
+  color: gray;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #main-story {
+    order: 1;
+  }
+
+  #featured-story {
+    order: 2;
+  }
+
+  #debate {
+    order: 3;
+  }
+
 }
