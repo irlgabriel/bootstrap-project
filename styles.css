@@ -48,7 +48,7 @@ nav h1{
 
 
 #magazines article {
-  margin: 5px;
+  margin: 5px 0px;
   width: 23%;
 }
 
@@ -154,6 +154,22 @@ img {
 
 .opinion {
   padding: 10px 0px;
+}
+
+.more-news img {
+  width: 100%;
+}
+
+.more-news-header {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.small-image {
+  width: 110px !important;
+  height: 70px;
 }
 
 @media only screen and (max-width: 768px) {
